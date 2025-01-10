@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    
+}
+
+body{
+    background-color: #F1F1F3;
+}
+.button-primary{
+    width: 90px;
+    height: 42px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 220px 30px 220px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.button-primary{
+    width: 90px;
+    height: 42px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Banner Design Section\ */
+
+.banner-section{
+
+    margin:0 auto;
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+
+
+}
+
+.banner-content{
+
+    display: flex;
+    padding:80px 100px;
+
+}
+
+.banner-text{
+    padding-top:60px;
+}
+
+.banner-text h5{
+    color: #4f6d5f;;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.banner-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    width: 620px;
+    padding-bottom: 20px;
+}
+
+.banner-text button{
+    width: 230px;
+    background-color: #006A50;
+    color: white;
+}
+
+
+/* Vision Future Card Section Design*/
+
+.vision-section{
+    margin:80px auto 0;
+    width: 1280px;
+}
+
+.vision-section h1{
+    font-size: 30px;
+    padding-bottom: 24px;
+}
+
+.vision-section > p{
+    padding-bottom: 24px;
+    line-height: 2;
+    color: rgb(122, 108, 108);
+}
+
+
+.vision-future-cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-content{
+    width: 400px;
+    height: 310px;
+    background-color: #bfd3eeb5;
+    border-radius: 15px;
+}
+
+.card-content-2{
+    background-color: #a0edcaa6;
+}
+
+.card-content-3{
+    background-color: #d1f990b3;
+}
+
+.card-content-text{
+    margin:20px 20px;
+    color: #4f6d5f;
+}
+
+.card-content img{
+    padding-bottom: 24px;
+}
+.card-content-text img{
+    height: 62px;
+    width: 62px;
+}
+
+.card-content h3{
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.card-content p{
+    font-size: 14px;
+    line-height:1.5;
+    padding-bottom: 24px;
+}
+
+.card-content button{
+    border: none;
+    /* background-color: rgb(165, 92, 234); */
+    color: white;
+    width: 120px;
+}
+
+.vision-card-1{
+    background-color: rgb(165, 92, 234);
+}
+
+.vision-card-2{
+    background-color: rgba(0, 128, 0, 0.674);
+}
+
+.vision-card-3{
+    background-color: orange;
+}
+
+
+/* Speech Section Design */
+
+.speech-section{
+    margin: 80px auto 0;
+    width:1230px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+
+.speech-container{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    /* margin:30px 40px; */
+    /* padding: 30px 0; */
+}
+
+.speech-container > p{
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(137, 130, 130);
+}
+
+.speech-container h5{
+    padding-top: 14px;
+    font-size: 20px;
+}
