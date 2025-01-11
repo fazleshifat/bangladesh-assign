@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", serif;
     font-style: normal;
-    
+
 }
-button:hover{
+
+button:hover {
     background-color: #8b9e95;
 }
-body{
+
+body {
     background-color: #F1F1F3;
 }
-.button-primary{
+
+.button-primary {
     width: 90px;
     height: 42px;
     font-size: 12px;
@@ -22,24 +25,25 @@ body{
     border: none;
 }
 
-.button-primary:hover{
-    background-color:#8b9e95; ;
+.button-primary:hover {
+    background-color: #8b9e95;
+    ;
 }
 
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     margin: 30px 220px 30px 220px;
 }
 
-.logo{
+.logo {
     font-size: 32px;
     font-weight: bold;
 
 }
 
-.button-primary{
+.button-primary {
     width: 90px;
     height: 42px;
     font-size: 12px;
@@ -49,9 +53,9 @@ body{
 
 /* Banner Design Section\ */
 
-.banner-section{
+.banner-section {
 
-    margin:0 auto;
+    margin: 0 auto;
     width: 1280px;
     height: 560px;
     background-color: #C6E4D6;
@@ -60,31 +64,32 @@ body{
 
 }
 
-.banner-content{
+.banner-content {
 
     display: flex;
-    padding:80px 100px;
+    padding: 80px 100px;
 
 }
 
-.banner-text{
-    padding-top:60px;
+.banner-text {
+    padding-top: 60px;
 }
 
-.banner-text h5{
-    color: #4f6d5f;;
+.banner-text h5 {
+    color: #4f6d5f;
+    ;
     font-size: 15px;
     padding-bottom: 20px;
 }
 
-.banner-text h1{
+.banner-text h1 {
     font-size: 48px;
     font-weight: bold;
     width: 620px;
     padding-bottom: 20px;
 }
 
-.banner-text button{
+.banner-text button {
     width: 230px;
     background-color: #006A50;
     color: white;
@@ -93,17 +98,17 @@ body{
 
 /* Vision Future Card Section Design*/
 
-.vision-section{
-    margin:80px auto 0;
+.vision-section {
+    margin: 80px auto 0;
     width: 1280px;
 }
 
-.vision-section h1{
+.vision-section h1 {
     font-size: 30px;
     padding-bottom: 24px;
 }
 
-.vision-section > p{
+.vision-section>p {
     font-size: 16px;
     padding-bottom: 24px;
     line-height: 2;
@@ -111,94 +116,97 @@ body{
 }
 
 
-.vision-future-cards-container{
+.vision-future-cards-container {
     display: flex;
     justify-content: space-between;
 }
-.card-content{
+
+.card-content {
     width: 400px;
     height: 310px;
     background-color: #bfd3eeb5;
     border-radius: 15px;
 }
 
-.card-content-2{
+.card-content-2 {
     background-color: #a0edcaa6;
 }
 
-.card-content-3{
+.card-content-3 {
     background-color: #d1f990b3;
 }
 
-.card-content-text{
-    margin:20px 20px;
+.card-content-text {
+    margin: 20px 20px;
     color: #4f6d5f;
 }
 
-.card-content img{
+.card-content img {
     padding-bottom: 24px;
 }
-.card-content-text img{
+
+.card-content-text img {
     height: 62px;
     width: 62px;
 }
 
-.card-content h3{
+.card-content h3 {
     font-size: 24px;
     padding-bottom: 24px;
 }
-.card-content p{
+
+.card-content p {
     font-size: 14px;
-    line-height:1.5;
+    line-height: 1.5;
     padding-bottom: 24px;
 }
 
-.card-content button{
+.card-content button {
     border: none;
     /* background-color: rgb(165, 92, 234); */
     color: white;
     width: 120px;
 }
 
-.vision-card-1{
+.vision-card-1 {
     background-color: rgb(165, 92, 234);
 }
 
-.vision-card-2{
+.vision-card-2 {
     background-color: rgba(0, 128, 0, 0.674);
 }
 
-.vision-card-3{
+.vision-card-3 {
     background-color: orange;
 }
 
 
 /* Speech Section Design */
 
-.speech-section{
+.speech-section {
     margin: 80px auto 0;
-    width:1230px;
+    width: 1230px;
     background-color: #e5eaf5;
     padding: 30px;
     border-radius: 15px;
-    
+
 }
 
-.speech-container{
+.speech-container {
     background-image: url("/assets/quote-bg.png");
     background-repeat: no-repeat;
     /* margin:30px 40px; */
     /* padding: 30px 0; */
 }
 
-.speech-container > p{
+.speech-container>p {
     padding-top: 25px;
     font-size: 16px;
     line-height: 2;
     color: rgb(54, 36, 36);
 }
 
-.speech-container h5{
+.speech-container h5 {
     padding-top: 14px;
     font-size: 20px;
 }
@@ -207,24 +215,24 @@ body{
 
 /* Recent News Section Design */
 
-.recent-news-section{
+.recent-news-section {
     margin: 80px auto 0;
-    width:1280px;
+    width: 1280px;
     /* background-color: white; */
 }
 
-.recent-news-text h1{
+.recent-news-text h1 {
     font-size: 30px;
     padding-bottom: 20px;
 }
 
-.recent-news-text p{
+.recent-news-text p {
     font-size: 16px;
     color: #4f6d5f;
     padding-bottom: 20px;
 }
 
-.news-container{
+.news-container {
     background-color: white;
     display: flex;
     padding: 30px;
@@ -235,18 +243,18 @@ body{
     margin-bottom: 30px;
 }
 
-.vote-pic > img{
+.vote-pic>img {
     width: 500px;
     height: 300px;
     border-radius: 20px;
 }
 
-.news-content h1{
+.news-content h1 {
     font-size: 28px;
     padding-bottom: 10px;
 }
 
-.news-content p{
+.news-content p {
     font-size: 18px;
     color: #4f6d5f;
     line-height: 1.5;
@@ -254,12 +262,12 @@ body{
     padding-top: 10px;
 }
 
-.news-container-2{
+.news-container-2 {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.news-button{
+.news-button {
     border: none;
     color: white;
     width: 140px;
@@ -268,32 +276,33 @@ body{
 
 /* Donate Today Section */
 
-.donate-today-section{
+.donate-today-section {
     width: 1280px;
     margin: 80px auto 0;
 }
 
-.donate-today-text{
+.donate-today-text {
     margin-top: 20px;
     text-align: center;
 }
 
-.donate-today-text h1{
+.donate-today-text h1 {
     font-size: 30px;
 }
 
-.donate-today-text p{
-    margin: 20px 0; 
+.donate-today-text p {
+    margin: 20px 0;
     font-size: 16px;
     color: #4f6d5f;
 }
 
-.amount-section{
+.amount-section {
     padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
 }
-.amount-content{
+
+.amount-content {
     width: 240px;
     height: 120px;
     background-color: white;
@@ -303,18 +312,19 @@ body{
     justify-content: center;
 }
 
-.amount-content:hover{
+.amount-content:hover {
     background-color: #9ecbb6;
 }
 
-.taka200{
+.taka200 {
     background-color: #C6E4D6;
 }
-.amount-content h1{
+
+.amount-content h1 {
     font-size: 30px;
 }
 
-#amount-input{
+#amount-input {
     width: 1100px;
     height: 50px;
     border: none;
@@ -327,41 +337,41 @@ body{
     text-align: center;
 }
 
-.amount-button{
+.amount-button {
     text-align: center;
     color: rgb(103, 30, 30);
 }
 
-.taka200{
+.taka200 {
     background-color: ;
 }
 
 /* Subscribe Newsletter section design*/
 
-.newsletter-section{
+.newsletter-section {
     height: 380px;
     width: 1280px;
     margin: 80px auto;
-    background-color:#c5e1d4;
+    background-color: #c5e1d4;
 }
 
-.newsletter-section-text{
+.newsletter-section-text {
     padding-top: 60px;
     text-align: center;
 }
 
-.newsletter-section-text h1{
+.newsletter-section-text h1 {
     font-size: 30px;
 }
 
-.newsletter-section-text p{
-    margin: 20px; 
+.newsletter-section-text p {
+    margin: 20px;
     font-size: 16px;
     color: #4f6d5f;
 }
 
 
-#newsletter-input{
+#newsletter-input {
     width: 800px;
     height: 50px;
     border: none;
@@ -371,16 +381,16 @@ body{
     border-radius: 10px;
     font-size: 15px;
     color: #4f6d5f;
-    text-align:start;
+    text-align: start;
     padding-left: 10px;
 }
 
-.subscribe-button{
+.subscribe-button {
     width: 145px;
     color: white;
     border: none;
     background-color: #006A50;
-    position:absolute;
+    position: absolute;
     margin-left: 900px;
     margin-top: 40px;
     height: 50px;
@@ -388,11 +398,11 @@ body{
     border-bottom-right-radius: 10px;
 }
 
-.newsletter-subscribe-bar{
+.newsletter-subscribe-bar {
     display: flex;
 }
 
-.newsletter-section p{
+.newsletter-section p {
     text-align: center;
     margin-top: 25px;
     color: #4f6d5f;
@@ -400,25 +410,25 @@ body{
 
 /* Footer section design */
 
-footer{
+footer {
     background-color: white;
     text-align: center;
-    
+
 }
 
-footer h1{
+footer h1 {
     font-size: 25px;
     padding-top: 50px;
     padding-bottom: 40px;
 }
 
-footer hr{
+footer hr {
     margin: 0 auto;
     width: 500px;
     background-color: #4f6d5f;
 }
 
-footer img{
+footer img {
     padding-top: 30px;
     padding-bottom: 40px;
     margin: 10px;
