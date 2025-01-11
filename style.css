@@ -170,7 +170,7 @@ body{
 .speech-section{
     margin: 80px auto 0;
     width:1230px;
-    background-color: white;
+    background-color: #e5eaf5;
     padding: 30px;
     border-radius: 15px;
     
@@ -194,3 +194,89 @@ body{
     padding-top: 14px;
     font-size: 20px;
 }
+
+
+
+/* Recent News Section Design */
+
+.recent-news-section{
+    margin: 80px auto 0;
+    width:1280px;
+    /* background-color: white; */
+}
+
+.recent-news-text h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.recent-news-text p{
+    font-size: 16px;
+    color: #4f6d5f;
+    padding-bottom: 20px;
+}
+
+.news-container{
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.vote-pic > img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.news-content h1{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.news-content p{
+    font-size: 18px;
+    color: #4f6d5f;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.news-container-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.news-button{
+    border: none;
+    color: white;
+    width: 140px;
+    background-color: rgb(78, 157, 80);
+}
+
+/* Donate Today Section */
+
+.donate-today-section{
+    width: 1280px;
+    margin: 80px auto 0;
+}
+
+.donate-today-text{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.donate-today-text h1{
+    font-size: 30px;
+}
+
+.donate-today-text p{
+    margin: 20px 0; 
+    font-size: 16px;
+    color: #4f6d5f;
+}
+
