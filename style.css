@@ -320,3 +320,48 @@ body{
     text-align: center;
     color: rgb(103, 30, 30);
 }
+
+
+/* Subscribe Newsletter section design*/
+
+.newsletter-section{
+    height: 380px;
+    width: 1280px;
+    margin: 80px auto;
+    background-color:#c5e1d4;
+}
+
+.newsletter-section-text{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.newsletter-section-text h1{
+    font-size: 30px;
+}
+
+.newsletter-section-text p{
+    margin: 20px; 
+    font-size: 16px;
+    color: #4f6d5f;
+}
+
+
+#newsletter-input{
+    width: 800px;
+    height: 50px;
+    border: none;
+    display: flex;
+    margin: 40px auto 0;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #4f6d5f;
+    text-align:start;
+    padding-left: 10px;
+}
+
+.subscribe-button{
+    background-color: #006A50;
+    position:relative;
+}
