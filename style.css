@@ -193,7 +193,7 @@ body {
 }
 
 .speech-container {
-    background-image: url("/assets/quote-bg.png");
+    background-image: url("./assets/quote-bg.png");
     background-repeat: no-repeat;
     /* margin:30px 40px; */
     /* padding: 30px 0; */
